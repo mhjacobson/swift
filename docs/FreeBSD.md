@@ -190,7 +190,7 @@ cmake \
 	-DSWIFT_BUILD_STATIC_STDLIB=ON \
 	-DBOOTSTRAPPING_MODE=BOOTSTRAPPING \
 	-DSWIFT_ENABLE_EXPERIMENTAL_STRING_PROCESSING=ON \
-	-DEXPERIMENTAL_STRING_PROCESSING_SOURCE_DIR="${SRCROOT}/swift-experimental-string-processing" \
+	-DSWIFT_PATH_TO_STRING_PROCESSING_SOURCE="${SRCROOT}/swift-experimental-string-processing" \
 	-G Ninja \
 	../llvm-project/llvm
 ```
